@@ -1,0 +1,14 @@
+#!/bin/sh
+pip list | grep pylint > /dev/null
+if [ $? -eq 0 ]; then
+    echo "Running pylint..."
+    pylint --recursive=y .
+    exit 0
+else
+    echo "Installing pylint..."
+    pip install pylint
+
+    echo "Running pylint..."
+    pylint --recursive=y .
+    exit 0
+fi
