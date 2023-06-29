@@ -27,4 +27,3 @@ jobs:
         uses: sunnysid3up/python-linter@master
         with:
            source: "example/"
-           pylint-options: "--recursive=y"
