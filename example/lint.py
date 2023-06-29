@@ -1,8 +1,8 @@
 def printHello():
-    print('Hello')
+    print("Hello")
 
 def printWorld():
-    print('World')
+    print("World")
 
 def print_hello_world():
     printHello()
