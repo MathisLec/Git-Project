@@ -9,8 +9,8 @@ This repository is an example of a Python project.
 - [x] Github project (1 point)
 - [ ] A correctly written readme, contributing, code of conduct (1 point)
 - [X] A coherent .gitignore (1 point)
-- [ ] Git flow compliance (good branches and branch protection) (2 points)
-- [ ] A hooks checking a js code (linter) (2 marks)
+- [x] Git flow compliance (good branches and branch protection) (2 points)
+- [x] A hooks checking a js code (linter) (2 marks)
 - [ ] Individual Course Question (3 marks)
 
 ## Install
